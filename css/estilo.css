@@ -35,6 +35,14 @@ header .marca{
 header .social{
     font-size: 20pt;
 }
+.social a{
+    text-decoration: none;
+     margin: 0 5px;
+}
+.social a:hover{
+    color:black;
+    text-shadow: 0 0 5px ;
+}
 
 footer{
     /*verificar margin bottom cuando agregue contenido a .contenido*/
