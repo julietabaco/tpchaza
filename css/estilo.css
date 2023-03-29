@@ -1,7 +1,21 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/*-------------tipografia-----------*/
+.Edu{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
 }
 
 header/*etiqueta*/
@@ -9,11 +23,21 @@ header/*etiqueta*/
     background-color: rgb(231, 158, 62);
     height: 80px;
     width: 100%;
-    margin: auto;/* sorve para centrar un elemento para el 100% de ancho*/ 
+    margin: auto;/* sirve para centrar un elemento para el 100% de ancho*/ 
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .marca{
+    font-size: 20pt;
+}
+header .social{
+    font-size: 20pt;
 }
 
 footer{
-    /*veroficar margin bottom cuando agregue contenido a .contenido*/
+    /*verificar margin bottom cuando agregue contenido a .contenido*/
     height: 70px;
     width: 100%;
     background-color: aquamarine;
@@ -23,7 +47,7 @@ footer{
 
 .contenido{
     height: 800px;
-    width: 100%;
+    width: 80%;
     margin: auto;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
