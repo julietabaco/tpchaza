@@ -43,7 +43,44 @@ header .social{
     color:black;
     text-shadow: 0 0 5px ;
 }
+.card{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+.card .imagen{
+    width: 100%;
+    height: 50%;
+    background-color:blanchedalmond;
+}
+.card .titulo{
+    font-size: 18pt;
+}
+.card .boton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:blue;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: sans-serif;
+    border-radius: 40px 8px 40px 8px;
+    
+}
 
+.card .boton:hover{
+    box-shadow: 0 0 10px white;
+}
+
+
+body{
+    background-color:khaki;
+}
 footer{
     /*verificar margin bottom cuando agregue contenido a .contenido*/
     height: 70px;
