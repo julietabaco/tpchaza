@@ -59,7 +59,7 @@ header .social{
     flex-basis: 100px; permite definir un ancho o alto fijo */ 
     /* width: 60%; */
      height: 500px;
-    background-color:grey;
+    background-color:grey; 
     padding: 20px;
     border-radius: 20px;
 }
