@@ -56,7 +56,7 @@ header .social{
     flex: 1 0 300px; /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
     /* flex-grow:1;/*permite o no que el contenedor se agrande siempre que haya espacio
     flex-shrink: 0; /*permite o no que el contenedor se achique
-    flex-basis: 100px; permite definir un ancho o alto fijo */
+    flex-basis: 100px; permite definir un ancho o alto fijo */ 
     /* width: 60%; */
      height: 500px;
     background-color:grey;
