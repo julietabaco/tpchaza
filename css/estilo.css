@@ -43,13 +43,25 @@ header .social{
     color:black;
     text-shadow: 0 0 5px ;
 }
-.card{
+.contenedor {
+    margin: auto;
+    display: flex;
+    /*habilita flexbox al contenido de mi selector*/
+    gap: 10px; /*similar a MARGIN*/
+    flex-direction: row;
+}
+
+.card {
     position: relative;
-    width: 30%;
-    height: 500px;
-    background-color: grey;
-    padding: 15px;
-    border-radius: 15px;
+    flex: 1 0 300px; /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
+    /* flex-grow:1;/*permite o no que el contenedor se agrande siempre que haya espacio
+    flex-shrink: 0; /*permite o no que el contenedor se achique
+    flex-basis: 100px; permite definir un ancho o alto fijo */
+    /* width: 60%; */
+     height: 500px;
+    background-color:grey;
+    padding: 20px;
+    border-radius: 20px;
 }
 .card .imagen{
     width: 100%;
@@ -96,5 +108,5 @@ footer{
     margin: auto;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
