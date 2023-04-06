@@ -95,11 +95,14 @@ body{
 }
 footer{
     /*verificar margin bottom cuando agregue contenido a .contenido*/
-    height: 70px;
+    height: 60px;
     width: 100%;
-    background-color: aquamarine;
+    background-color:rgba(85, 107, 47, 0.87);
     position: fixed;
     bottom: 0;
+    color: white;
+    line-height: 60px;
+    text-align: center;
 }
 
 .contenido{
