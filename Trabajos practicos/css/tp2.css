@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------tipografia-----------*/
+.Edu{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
