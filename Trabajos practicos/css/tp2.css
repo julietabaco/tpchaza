@@ -46,6 +46,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .busqueda .icono{
     height: 60px;
@@ -68,15 +70,17 @@
     font-size: 15pt;
 }
 .busqueda input[type="search"]:focus{
-    font-size: 13pt;
+    font-size: 14pt;
     transition: all 0.15s ease-in-out;
+}
+.busqueda input[type="submit"]:active{
+    font-size: 15pt;
 }
 .busqueda input[type="submit"]{
     height: 60px;
     width: 60px;
     border: none;
     outline: none;
-   
 }
 
  /*------------FIN PORTADA-----------*/
