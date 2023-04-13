@@ -9,10 +9,85 @@
 .Edu{
     font-family: 'Edu NSW ACT Foundation', cursive;
 }
-
+.fw100 {
+    font-weight: 100;
+}
 .fw300{
     font-weight: 300;
 }
 .fw700{
     font-weight: 700;
 }
+/*----estilos para img de fondo---*/
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+ /*-----estilos del proyecto-------*/
+
+.portada {
+    position: relative;
+    background-image: url(../img/chori.jpg);
+    background-color: aquamarine;
+    padding: 7%;
+    color: white;
+    box-shadow: inset 0 0 500px rgba(0, 0, 0, 0.267);
+    height: 350px;
+}
+.busqueda{
+    position:absolute;
+    bottom: -20px;
+    background-color:white;
+    width: 86%;
+    height: 60px;
+    margin: auto;
+    box-shadow: 0 18px 20px -15px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.busqueda .icono{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(107, 211, 176, 0.979);
+    text-align: center;
+    line-height: 60px; /* centrar verticalmente texto,el mismo valor de height */
+    
+
+}
+.icono.material-icons-outlined{
+    font-size: 24pt;
+}
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc( 100% - 120px );
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15pt;
+}
+.busqueda input[type="search"]:focus{
+    font-size: 13pt;
+    transition: all 0.15s ease-in-out;
+}
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none;
+   
+}
+
+ /*------------FIN PORTADA-----------*/
+.menu {
+    background-color: rgb(234, 104, 28);
+    padding: 20px;
+}
+ /*----------FIN MENU---------*/
+
+.productos {
+    background-color: rgb(70, 70, 70);
+    padding: 20px;
+}
+ /*-----------FIN PRODUCTOS-----------*/
