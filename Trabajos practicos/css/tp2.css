@@ -5,6 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
+
 /*-------------tipografia-----------*/
 .Edu{
     font-family: 'Edu NSW ACT Foundation', cursive;
@@ -95,12 +120,16 @@
 }
 .menu ul{
     display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    overflow-x: scroll;
 }
 .menu ul li{
     flex: 0 0 110px;
     height: 40px;
     text-align: center;
     list-style: none;
+    
 }
 .menu a {
     color:none;
@@ -111,5 +140,20 @@
 .productos {
     background-color: rgb(70, 70, 70);
     padding: 20px;
+}
+.restos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 10px;
+}
+.card{
+    flex: 1 0 160px;
+    width: 90%;
+    background-color: aqua;
+    
+
 }
  /*-----------FIN PRODUCTOS-----------*/
