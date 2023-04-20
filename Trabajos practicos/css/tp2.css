@@ -153,7 +153,14 @@
     flex: 1 0 160px;
     width: 90%;
     background-color: aqua;
-    
-
+    display: flex;
+}
+.card .img{
+    flex: 0 0 40%;
+    background-color: blue;
+}
+.card .datosresto{
+    flex: 0 0 60%;
+    background-color: brown;
 }
  /*-----------FIN PRODUCTOS-----------*/
