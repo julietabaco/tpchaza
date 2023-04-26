@@ -150,17 +150,34 @@
     padding: 10px;
 }
 .card{
+    display: flex;
     flex: 1 0 160px;
     width: 90%;
+    height: 160px;
     background-color: aqua;
-    display: flex;
 }
 .card .img{
     flex: 0 0 40%;
     background-color: blue;
+    overflow: hidden;
+
+}
+.img img{
+    height: 100%;
+    object-fit: cover;
+
 }
 .card .datosresto{
+    padding: 12px;
     flex: 0 0 60%;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.valores{
+    display: flex;
+    justify-content: space-between;
+}
+
  /*-----------FIN PRODUCTOS-----------*/
