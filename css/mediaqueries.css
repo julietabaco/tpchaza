@@ -15,7 +15,7 @@
         font-size: 12pt;
     }
     header{
-        height: 40px;
+        height: 40px; 
         padding: 0 20px;
     }
     header .marca, header .social{
