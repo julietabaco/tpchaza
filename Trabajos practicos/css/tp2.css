@@ -198,3 +198,15 @@
 }
 
  /*-----------FIN PRODUCTOS-----------*/
+
+ .nav_mobile{
+    background-color: aqua;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+ }
+ .nav_mobile ul{
+    display: flex;/*aplica el flexbox*/
+    justify-content: space-between;/*separa los elementos*/
+    list-style: none;
+ }
