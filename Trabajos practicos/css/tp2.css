@@ -199,7 +199,7 @@
 
  /*-----------FIN PRODUCTOS-----------*/
 
- pa{
+ .pa{
     position: absolute;
  }
  .posrel{
@@ -268,14 +268,16 @@ main ul li{
  }
  .banner button{
     left: 20px;
+    position: absolute;
     background-color: aqua;
     border: 0;
  }
  .banner button:hover{
     background-color: chartreuse;
  }
- .item menu{
+ .item_menu{
     background-color: rgb(255, 145, 0);
+    width: 100%;
  }
  .plato{
     background-color: darkgoldenrod;
@@ -283,7 +285,7 @@ main ul li{
     width: 100px;
     border-radius: 50%;
  }
- .item menu:hover{
+ .item_menu span{
     background-color: aqua;
  }
 .flex{
