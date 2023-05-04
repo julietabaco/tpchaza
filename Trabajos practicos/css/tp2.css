@@ -199,8 +199,44 @@
 
  /*-----------FIN PRODUCTOS-----------*/
 
- .nav_mobile{
+ pa{
+    position: absolute;
+ }
+ .posrel{
+    position: relative;
+ }
+ .valoracion{
+    position: absolute;
     background-color: aqua;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    bottom: -20px;
+    right: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 15px 0;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.733);
+ }
+ ul{
+    list-style-type: none;
+ }
+main{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main ul{
+    display: flex;
+    justify-content: space-around;
+}
+main ul li{
+    text-align: center;
+
+}
+ .nav_mobile{
     position: fixed;
     bottom:0;
     width: 100%;
@@ -208,5 +244,42 @@
  .nav_mobile ul{
     display: flex;/*aplica el flexbox*/
     justify-content: space-between;/*separa los elementos*/
-    list-style: none;
+    /* list-style: none; */
  }
+ .nav_mobile ul li{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+ }
+ .nav_mobile a{
+    text-decoration: none;
+    color: black;
+ }
+ .nav_mobile ul li:hover{
+    color: black;
+    border-top: solid 4px aquamarine;
+ }
+ /*propiedades para menu.html*/
+ .banner{
+    width: 100%;
+    background-color: crimson;
+    padding: 10px;
+ }
+ .banner button{
+    left: 20px;
+    background-color: aqua;
+    border: 0;
+ }
+ .banner button:hover{
+    background-color: chartreuse;
+ }
+.flex{
+    display: flex;
+}
+.centrar_vert{
+    align-items: center;
+}
+.centrar_h{
+    justify-content: center;
+}
