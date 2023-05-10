@@ -20,7 +20,6 @@
 /* SELECTOR */
 ::-webkit-scrollbar-thumb {
     background: rgb(109, 223, 185);
-    ;
     border-radius: 5px;
 }
 
@@ -53,7 +52,7 @@
 
 .portada {
     position: relative;
-    background-image: url(../img/chori.jpg);
+    background-image: url(../img/restau.jpeg);
     background-color: aquamarine;
     padding: 7%;
     color: white;
@@ -191,7 +190,7 @@
     top:-5px;
     height: 50px;
     width: 50px;
-    background-color: aquamarine;
+    background-color: rgb(55, 246, 182);
     text-align: center;
     line-height: 50px;
     border-radius: 0 15px;
@@ -207,11 +206,11 @@
  }
  .valoracion{
     position: absolute;
-    background-color: aqua;
-    height: 60px;
+    background-color: rgb(57, 236, 162);
+    height: 50px;
     width: 60px;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     bottom: -20px;
     right: 20px;
     color: black;
@@ -234,8 +233,13 @@ main ul{
 }
 main ul li{
     text-align: center;
-
+    
 }
+main i .schedule{
+    color: rgb(240, 183, 62);
+}
+    
+
  .nav_mobile{
     position: fixed;
     bottom:0;
@@ -261,33 +265,61 @@ main ul li{
     border-top: solid 4px aquamarine;
  }
  /*propiedades para menu.html*/
+ body{
+    background-color:#edecec;
+ }
  .banner{
     width: 100%;
-    background-color: crimson;
+    background-color:white;
     padding: 10px;
  }
  .banner button{
     left: 20px;
     position: absolute;
-    background-color: aqua;
     border: 0;
  }
- .banner button:hover{
-    background-color: chartreuse;
- }
+ /* .banner button:hover{
+    background-color: rgba(201, 198, 198, 0.903);
+ } */
  .item_menu{
-    background-color: rgb(255, 145, 0);
+    /* background-color:#f1f1f1; */
     width: 100%;
  }
  .plato{
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     height: 100px;
     width: 100px;
     border-radius: 50%;
  }
- .item_menu span{
-    background-color: aqua;
+.item_menu img{
+    /* background-color: rgb(255, 0, 102); */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+ } 
+ .item_menu .precio{
+    position: relative;
+    background-color:rgb(105, 219, 177);
+    height: 25px;
+    width: 50px;
+    left: 120px;
+    top: 70px; 
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    font-weight: 700;
+    border-radius: 15px 0;
  }
+ .item_menu h4{
+    text-align: center;
+ }
+.item_menu h5{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: rgb(65, 64, 64);
+}
 .flex{
     display: flex;
 }
@@ -297,3 +329,7 @@ main ul li{
 .centrar_h{
     justify-content: center;
 }
+.nav_mobile ul{
+    background-color:white;
+}
+
