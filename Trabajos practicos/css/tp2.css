@@ -332,4 +332,36 @@ main i .schedule{
 .nav_mobile ul{
     background-color:white;
 }
+/* -------producto---------- */
 
+.producto{
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.obj_fit{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.producto .titulo{
+    z-index: 1;
+    background-color:red;
+    width: 7    0%;
+    bottom: 0;
+
+}
+main{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    
+}
+.cuadrado{
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
+}
