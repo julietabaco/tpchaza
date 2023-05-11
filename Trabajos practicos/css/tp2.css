@@ -354,14 +354,3 @@ main i .schedule{
     bottom: 0;
 
 }
-main{
-    background-color: aqua;
-    height: 100vh;
-    width: 100%;
-    
-}
-.cuadrado{
-    height: 80px;
-    width: 80px;
-    background-color: chocolate;
-}

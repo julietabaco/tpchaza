@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.violeta{background-color: violet;}
+.azul{background-color: blue;}
+.gris{background-color: grey;}
+
+main{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+    display: flex;/*activandoe el metodo de organizacion flexbox*/
+    flex-direction: row;
+    justify-content: space-evenly;   
+    align-items: center;
+
+}
+.cuadrado{
+    /* height: 80px;
+    width: 80px; */
+    /* flex-grow: 0;/*capacidad del agrandarse siempre*/
+    flex-shrink: 0;/*capacidad de achicarse del contenedor si es necesario
+    flex-basis: 130px;hancho o altura base del elemento */
+    flex: 1 0 130px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 36pt;
+    font-family: system-ui, -apple-system, BlinkMacS;
+}
