@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* .contenedor {
+    
+    flex-direction: row;
+  }
+   */
+
+  /* Estilos para la caja de búsqueda */
+  /* .caja-busqueda{
+    flex-direction: row;
+    margin-left: 220px;
+    padding: 20px;
+  }
+
+  .busqueda {
+    position: relative;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .busqueda input[type="text"] {
+    width: 500px;
+    padding: 10px;
+  }
+   */
+  .busqueda button {
+    padding: 10px 20px; /*tamaño del coso de busqueda*/
+    background-color: #4285f4;
+    color: #fff;
+    /* border: none;
+    cursor: pointer; */
+  }
+
+  .contenido{
+    /* position: absolute; */
+    height: 800px; 
+    width: 100%; 
+    margin: auto;
+    background-color: #85FFBD;
+    margin-bottom: 60px;
+    margin-left: 153px;
+}
+
+  .contenedor{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    gap: 10px; 
+    flex-direction: row;
+  }
+  .card {
+    position: relative;
+    flex: 1 0 200;     
+    height: 250px;
+    width: 250px;
+    background-color:grey; 
+    padding: 20px;
+    border-radius: 20px;
+} 
+
+  /*--------columna--------*/
+  .columna {
+    flex: 1 0 300px;
+    top:0px;
+    width: 9%;
+    height: 100%;
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Estilos para el enlace al perfil */
+  .perfil {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la sección de búsqueda de categorías */
+  .seccion-categorias {
+    
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  .seccion-categorias h2 {
+    margin-top: 0;
+  }
+  
+  .seccion-categorias ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .seccion-categorias li {
+    margin-bottom: 10px;
+  }
+  
+  .seccion-categorias a {
+    color: #333;
+    text-decoration: none;
+  }
