@@ -5,6 +5,29 @@
     font-family: Arial, sans-serif;
 
 }
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+} 
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
 body{
     width: 100%;
     background-color: rgb(119, 114, 114);
@@ -12,7 +35,7 @@ body{
 .cabeza{
     background-color:rgb(56, 55, 55);
     width: 100%;
-    height: 150px;
+    height: 150px; 
 }
 .portada{
     position: relative;
@@ -75,12 +98,13 @@ body{
     gap: 15px;
     flex-direction: column;
     position: relative;
-    top: 180px;
-    left: 15px;
+    top: 170px;
+    left: -2px;
 }
 .card {
+    border: 1px white solid;
     position: relative;
-    left: 30px;
+    left: 21px;
     top: 10px;
     flex: 1 0 190px;     
     height: 190px;
@@ -89,7 +113,11 @@ body{
     padding: 30px;
     border-radius: 20px;
 }
-.card .circuloper{
+.posicion{
+    position: relative;
+    bottom: 30px;
+}
+.circuloper{
     position: absolute;
     height: 40px;
     width: 40px;
@@ -98,9 +126,17 @@ body{
     background-color:white;
     justify-content: space-between;
 }
+
 .iconos{
     position: relative;
     left: 320px;
+    bottom: -20px;
+    color: black;
+}
+.enviar{
+    position: relative;
+    left: 340px;
+    bottom: -127px;
 }
 .card .nombreper{
     position: relative;
