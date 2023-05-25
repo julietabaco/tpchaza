@@ -67,8 +67,7 @@ body{
 .mensajes{
     position: relative;
     left: 80px;
-    bottom: -100px;
-    height: 20px;
+    bottom: -260px;
     font-size: 15pt;
 }
 .cajamens{
@@ -76,7 +75,7 @@ body{
     gap: 15px;
     flex-direction: column;
     position: relative;
-    top: 120px;
+    top: 180px;
     left: 15px;
 }
 .card {
