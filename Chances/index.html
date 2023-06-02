@@ -1,56 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="css/estilo.css"> 
+  <link rel="stylesheet" href="css/estilo.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <title>Página de inicio</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- <link rel="shortcut icon" href="img/perfil.jpg"> -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dosis&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+  </style>
+  <title>Chances</title>
 </head>
+
 <body>
-<div class="contenido">
-  <!-- Caja de búsqueda -->
-  <!-- <div class="busqueda">
-    <input type="text" placeholder="Buscar...">
-    <button>Buscar</button>
-  </div> -->
-
-<!-- <div class="caja-trabajos"> -->
-  <div class="contenedor">
-         <div class="card">
-            <h2>Persona 1</h2>
-            <p>Descripción breve de la persona 1.</p>
-         </div>
-
-       <div class="card">
-            <h2>Persona 2</h2>
-            <p>Descripción breve de la persona 1.</p>
-         </div>
-
-         <div class="card">
-            <h2>Persona 3</h2>
-            <p>Descripción breve de la persona 1.</p>
-         </div>
-    </div>
-</div>
-
-    <div class="columna">
-     <!-- Enlace al perfil -->
-     <div class="perfil">
-         <a href="perfil.html">Mi Perfil</a>
-     </div>
-
-  <!-- Sección de búsqueda de categorías -->
-        <div class="seccion-categorias">
-            <h2>Buscar categorías</h2>
-            <ul>
-            <li><a href="#">Categoría 1</a></li>
-            <li><a href="#">Categoría 2</a></li>
-            <li><a href="#">Categoría 3</a></li>
-            <!-- Agrega más categorías según sea necesario -->
-         </ul>
+  <header>
+    <div class="portada">
+      <nav class="navegacion">
+        <a href="#" class="logo">Chances</a>
+        <ul class="menu">
+          <li><a href="#">¿Porque Chances?</a></li>
+          <li><a href="#">Encontrar Trabajo</a></li>
+          <li><a href="#">Rubros</a>
+            <ul class="subrubro">
+              <li><a href="#">Plomeria</a></li>
+              <li><a href="#">Electricista</a></li>
+              <li><a href="#">Mamposteria</a></li>
+              <li><a href="#">Paisajismo</a></li>
+              <li><a href="#">Niñera/o</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        
+        <div class="barrabusqueda">
+          <form>
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
         </div>
+        <div class="login">
+              <a href="#">Iniciar Sesion</a>
+          <ul class="registrarse">
+            <li class="">
+              <a href="#">Registrarse</a>
+            </li>
+          </ul>
+      </nav>
+      <div class="linea"></div>
     </div>
+  </header>
+  <div class="gif">
+    <img src="img/1.gif" alt="">
+  </div>
+  <article class="informacion">
+    <div class="titulo">
+      <span>
+        Tu Trabajo<br>
+        Mi Trabajo
+      </span>
+    </div>
+    <div class="contenido">
+      Esta pagina esta dedicada y orientada para los trabajadores y/o personas que busquen un servicio.
+    </div>
+    <div class="empleo">
+      <a href="#">Empezar</a>
+    </div>
+  </article>
+  <div class="linea2"></div>
+  <div class="explicacion">
+    <div class="foto">
+      <img src="img/2.gif">
+    </div>
+    <div class="tituloexpli">
+      ¿Necesitas publicitar tu trabajo?
+    </div>
+    <div class="contenidoexpli">
+      <div class="submejorar">
+        <span class="material-symbols-outlined">
+          system_update_alt
+        </span>Mejorar
+        <div class="submejorarcont">
+          Mejore su propuestas de trabajo.<br>
+        </div>
+      </div>
+      <div class="subpublicar">
+        <span class="material-symbols-outlined">
+          quick_reference_all
+        </span>Publicar
+        <div class="subpublicarcont">
+          Publique un trabajo y contrate al mejor.<br>
+        </div>
+      </div>
+      <div class="subchances">
+        <span class="material-symbols-outlined">
+          acute
+        </span>Accesible
+        <div class="subchancescont">
+          Chances hace mas accesible el contacto Empleado a Empleador.
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="nombreempresa">
+      2022-2023 Simuladores&copy; Global Inc<br>
+      Todos los derechos reservados &copy; 2023
+    </div>
+  </footer>
+  <!-- </main> -->
 </body>
+
 </html>
