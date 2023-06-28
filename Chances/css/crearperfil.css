@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+.registro{
+    display: flex;
+    margin: auto;
+    /* background-color: rgb(2, 108, 108); */
+    height: 600px;
+    width: 85%;
+}
+.titucont{
+    background-color: blueviolet;
+    height: 30%;
+    width: 100%;
+}
