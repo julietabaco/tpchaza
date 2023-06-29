@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/principal.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <title>Principal</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="flex col gap20">
+      <nav class="trip flex centrarvertical gap10">
+        <span class="material-icons-outlined"> menu </span>
+        TripWayo
+      </nav>
+      <navbar class="flex gap20 col">
+        <div class="barrabusqueda">
+          <form class="flex centrarvertical">
+            <input type="search" placeholder="Buscar..." name="search" />
+            <input
+              type="submit"
+              class="material-icons-outlined"
+              value="search"
+            />
+          </form>
+        </div>
+        <div class="filtros flex spa centrarvertical">
+          <a href="index.html">
+            <span class="material-icons-outlined gap10 flex red"> flight </span>
+          </a>
+          <a href="index.html">
+            <span class="material-icons-outlined blue"> hotel </span>
+          </a>
+          <a href="index.html">
+            <span class="material-icons-outlined green"> train </span>
+          </a>
+          <a href="index.html">
+            <span class="material-icons-outlined celeste">
+              directions_car
+            </span>
+          </a>
+        </div>
+      </navbar>
+    </header>
+    <main>
+      <section class="flex gap20 centrarvertical col">
+        popular destinations<a href="index.html">ver todo</a>
+        <div class="destinos">
+          <article>
+            <div class="img">
+              <img src="foto.jpg" />
+            </div>
+            <div class="titulo">London</div>
+            <div class="subtitulo">$2000</div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

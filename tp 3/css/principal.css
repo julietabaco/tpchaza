@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color:rgb(221, 220, 217);
+}
+navbar{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.spa{
+    justify-content: space-around;
+}
+.col{
+    flex-direction: column;
+}
+.centrarvertical{
+    align-items: center;
+}
+.gap10{
+    gap: 10px;
+}
+.gap20{
+    gap: 20px;
+}
+.trip{
+    font-size: 15pt;
+    padding-top: 25px;
+    padding-left: 20px;
+    
+}
+.barrabusqueda {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 30px; 
+    background-color: white;
+  }
+
+  form{
+    width: 100%;
+    padding: 10px;
+    
+  }
+  input[type="search"] {
+    padding: 0 10px;
+    border: 0;
+    outline: 0;    
+    font-size: 16px;
+    width: calc(100% - 45px);
+  }
+
+  input[type="search"]:focus {
+    font-size: 20pt; 
+    /* pone lo que te pinte */
+  }
+
+
+  input[type="submit"] {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 45px;
+    height: 30px;
+  }
+ 
+.filtros{
+    width: 80%;
+    height: 45px;
+    margin: auto;
+}
+.filtros a{
+    text-decoration: none;
+    border-radius: 10px; 
+    border: solid 1px black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: rgb(219, 68, 187);
+}
+.green{
+    color: green;
+}
+.celeste{
+    color: dodgerblue;
+}
