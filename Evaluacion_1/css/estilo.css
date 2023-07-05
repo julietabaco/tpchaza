@@ -186,3 +186,6 @@ body{
     bottom: 0;
     line-height: 60px;
 }
+a{
+    text-decoration: none;
+}

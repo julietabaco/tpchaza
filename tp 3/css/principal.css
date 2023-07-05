@@ -44,6 +44,16 @@ h1{
     padding-top: 25px;
     padding-left: 30px;
 }
+.top{
+    flex-shrink: 0;
+    width: 300px;
+    flex-grow: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+    overflow:scroll;
+}
 
 .barrabusqueda {
     display: flex;
@@ -99,7 +109,7 @@ h1{
     align-items: center;
     background-color: white;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-}
+} 
 
 img{
     height: 275px;
@@ -138,11 +148,7 @@ footer {
 .celeste{
     color: dodgerblue;
 }
-section a{
-    padding-left: 30%;
-    text-decoration: none;
-    color: black;
-}
+
 a{
     text-decoration: none;
 }
