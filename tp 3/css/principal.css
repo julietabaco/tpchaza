@@ -49,10 +49,11 @@ h1{
     width: 300px;
     flex-grow: 0;
 }
-main{
-    width: 100%;
-    display: flex;
-    overflow:scroll;
+.scrol{
+    overflow-x: scroll;
+}
+.sep{
+    margin-bottom: 80px;
 }
 
 .barrabusqueda {

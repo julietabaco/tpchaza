@@ -50,3 +50,23 @@ main{
 .numero{
     width: 10px;
 }
+.valoracion{
+    padding-top:  10px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    margin: auto;
+}
+.texto{
+    padding-top: 20px;
+}
+
+.amarillo{
+    color: rgb(218, 218, 17);
+}
+.celeste{
+    color: lightblue;
+}
+.naranja{
+    color:orange;
+}
