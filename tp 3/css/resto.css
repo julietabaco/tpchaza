@@ -60,7 +60,40 @@ main{
 .texto{
     padding-top: 20px;
 }
-
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Centra horizontalmente */
+    background-color: rgb(26, 68, 146);
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+}
+.precio{
+    margin: auto;
+}
+.tit{
+    font-size: 7pt;
+    color: white;
+}
+.num{
+    font-size: 14pt;
+    color: white;
+}
+.boton{
+    margin: auto;
+    background-color: white;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
 .amarillo{
     color: rgb(218, 218, 17);
 }
