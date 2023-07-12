@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.links{
+  display: flex;
+  gap: 30px;
+}
+.empresas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links a{
+  text-decoration: none;
+  color: rgb(160, 105, 65);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
